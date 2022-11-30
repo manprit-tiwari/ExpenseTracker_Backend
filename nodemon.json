@@ -1,0 +1,7 @@
+{
+    "env": {
+        "PORT": 3000,
+        "MONGODB_URI": "mongodb://127.0.0.1:27017/ExpenseTracker",
+        "JWT_TOKEN": "j92l*(al3l3l(*^&836"
+    }
+}
