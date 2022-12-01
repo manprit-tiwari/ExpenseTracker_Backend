@@ -25,3 +25,5 @@ const updateUser = (req, res, next) => {
         next(err);
     })
 }
+
+module.exports = updateUser;
