@@ -9,4 +9,6 @@ userRoute.post('/signUp', userController.signUp);
 
 userRoute.get('/getById', middleware.authentication, userController.getById);
 
+userRoute.get('/update', middleware.authentication, userController.update);
+
 module.exports = userRoute
