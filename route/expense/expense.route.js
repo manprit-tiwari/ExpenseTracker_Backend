@@ -6,4 +6,6 @@ expenseRoute.post('/create', expenseController.create);
 
 expenseRoute.get('/getAll', expenseController.getAll);
 
+expenseRoute.delete('/delete/:Id', expenseController.delete);
+
 module.exports = expenseRoute;
